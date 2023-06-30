@@ -1,0 +1,36 @@
+/* reset */
+*{margin: 0;padding: 0;box-sizing: border-box;color: #000;}
+li{list-style: none;}
+a{text-decoration: none;display: block;}
+img{display: block;}
+
+#wrap{width: 100%;margin: auto;overflow: hidden;}
+#inner{width: 1200px;margin: auto;}
+
+
+header{width: 100%;height: 80px;background: #ccc;}
+header #inner{height: 80px;position: relative;display: flex;align-items: center;}
+header h1 a{width: 100px;height: 60px;}
+header h1 a img{width: 100%;max-width: 100%;}
+header nav{margin-left: 30px;margin-top: 30px;}
+header nav ul{display: flex;}
+header nav ul li{margin-left: 20px;}
+header .btn-box{position: absolute;right: 20px;top: 38px;}
+header .btn-box span{padding: 5px;color: #818181;}
+header .btn-box span:nth-child(2){color: #333;padding-left: 0;}
+
+
+section #inner{display: flex;flex-wrap: wrap;height: 800px;padding: 100px 0;justify-content: space-between;}
+section #inner a{width: 240px;height: 220px;box-shadow: 1px 1px 20px rgba(0,0,0,0.5);padding: 30px 20px;margin-right: 10px;background: #e4e4e4;border-radius: 10px;}
+section #inner a:nth-child(4){margin-right: 0;}
+section #inner a:nth-child(8){margin-right: 0;}
+section #inner a h4{text-align: center;margin-top: 20px;font-size: 18px;color: #000;}
+
+
+footer{background: #ccc;height: 185px;}
+footer ul{display: flex;justify-content: center;padding: 20px 0 40px;}
+footer ul li{margin: 20px;}
+footer ul li a:hover{text-decoration: underline;}
+footer address{text-align: center;font-style: normal;font-size: 14px;}
+footer address strong:hover{text-decoration: underline;}
+footer .copyright{text-align: center;margin-top: 7px;font-size: 14px;}
